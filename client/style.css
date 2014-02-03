@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Helvetica Neue";
+	font-weight: 300;
+	line-height: 1.4;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navbar {
+	background-color: #0074D9;
+	color: #fff;
+	height: 3em;
+	line-height: 3em;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#main {
+	width: 90%;
+	margin: 1em auto;
+}
+
+@media screen and (min-width: 640px) {
+	#main {
+		width: 60%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+}

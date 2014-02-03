@@ -1,0 +1,9 @@
+<template name="allWorkouts">
+	{{#each exercise}}
+		<h2>{{day}}</h2>
+		<h3>{{title}}</h3>
+		{{#each exercises}}
+			<li>{{name}}</li>
+		{{/each}}
+	{{/each}}
+</template>

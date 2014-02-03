@@ -1,0 +1,12 @@
+<template name="workout">
+	<h2>{{exercise.day}}: {{exercise.title}}</h2>
+	<ul>
+	{{#if exercise.exercises}}
+		{{#each exercise.exercises}}
+			<li>{{name}}</li>
+		{{/each}}
+	{{else}}
+		<p>Nothing to do today - take it easy!</p>
+	{{/if}}
+	</ul>
+</template>
